@@ -1,0 +1,15 @@
+# Bug Bounty Target Domains
+# Format: domain scope_type program_name
+# Example: domain.com [*.domain.com] [Program Name]
+# Lines starting with # are comments
+
+# Technology Companies
+example.com *.example.com # Financial Services
+bank-example.com *.bank-example.com,api.bank-example.com Bank Security Program
+
+# Add your targets below this line
+
+# Target added on Sat Mar  1 19:22:08 UTC 2025
+# Program: bg
+# Notes: Certinia
+certinia.com *.certinia.com bg
