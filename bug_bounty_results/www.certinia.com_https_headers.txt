@@ -1,0 +1,15 @@
+HTTP/2 302 
+date: Sat, 01 Mar 2025 19:37:51 GMT
+content-type: text/html
+content-length: 143
+location: https://certinia.com/
+cf-ray: 919b1c7f4e304624-DFW
+cf-cache-status: BYPASS
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+vary: Accept-Encoding
+cf-apo-via: origin,resnok
+x-content-type-options: nosniff
+server: cloudflare
+
