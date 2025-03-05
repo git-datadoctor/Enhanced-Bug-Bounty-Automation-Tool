@@ -1,0 +1,16 @@
+# Bug Bounty Target Domains
+# Format: domain scope_type program_name
+# Example: domain.com [*.domain.com] [Program Name]
+# Lines starting with # are comments
+
+# Technology Companies
+example.com *.example.com Example Bug Bounty
+test-domain.com *.test-domain.com Test Program
+
+# E-commerce
+store-example.com *.store-example.com Store Bug Bounty
+
+# Financial Services
+bank-example.com *.bank-example.com,api.bank-example.com Bank Security Program
+
+# Add your targets below this line
