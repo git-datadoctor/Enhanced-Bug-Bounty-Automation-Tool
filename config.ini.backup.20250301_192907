@@ -1,0 +1,27 @@
+[DEFAULT]
+# Target domain (can be overridden via command line argument)
+TARGET = example.com
+
+# Paths to required wordlists and resolvers
+WORDLIST = /usr/share/wordlists/subdomains.txt
+RESOLVERS = resolvers.txt
+
+# Authentication tokens
+GITHUB_TOKEN = YOUR_GITHUB_TOKEN_HERE
+
+# Output directory for results
+OUTPUT_DIR = bug_bounty_results
+
+# Tool-specific configurations
+THREADS = 50
+RECURSION_DEPTH = 3
+HTTP_PORTS = 80,443,8080,8443
+
+# Advanced settings
+TIMEOUT = 30
+MAX_RETRIES = 3
+VERBOSE = true
+
+# Custom wordlists
+CONTENT_WORDLIST = /usr/share/wordlists/content_discovery.txt
+PARAMETER_WORDLIST = /usr/share/wordlists/params.txt
