@@ -1,0 +1,19 @@
+[2025-03-01 19:37:50] [INFO] Starting quick scan for certinia.com
+[2025-03-01 19:37:50] [INFO] Checking http://certinia.com
+[2025-03-01 19:37:50] [INFO] Checking https://certinia.com
+[2025-03-01 19:37:51] [INFO] Checking common subdomains
+[2025-03-01 19:37:51] [INFO] Checking https://www.certinia.com
+[2025-03-01 19:37:51] [INFO] Checking https://api.certinia.com
+[2025-03-01 19:37:51] [INFO] Checking https://mail.certinia.com
+[2025-03-01 19:38:01] [INFO] Checking https://blog.certinia.com
+[2025-03-01 19:38:01] [INFO] Checking https://dev.certinia.com
+[2025-03-01 19:38:01] [INFO] Checking https://stage.certinia.com
+[2025-03-01 19:38:01] [INFO] Checking https://test.certinia.com
+[2025-03-01 19:38:01] [INFO] Checking https://docs.certinia.com
+[2025-03-01 19:38:01] [INFO] Checking https://support.certinia.com
+[2025-03-01 19:38:01] [INFO] Checking https://help.certinia.com
+[2025-03-01 19:38:01] [INFO] Checking https://app.certinia.com
+[2025-03-01 19:38:01] [INFO] Checking https://portal.certinia.com
+[2025-03-01 19:38:01] [INFO] Running httpx probe
+[2025-03-01 19:38:01] [INFO] Scan completed. Results saved in bug_bounty_results/
+[2025-03-01 19:38:01] [INFO] Summary file: bug_bounty_results/summary.txt
