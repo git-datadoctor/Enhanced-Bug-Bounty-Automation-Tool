@@ -1,0 +1,81 @@
+[DEFAULT]
+# Target domain (can be overridden via command line argument)
+TARGET = example.com
+
+# Paths to required wordlists and resolvers
+WORDLIST = /usr/share/wordlists/subdomains.txt
+RESOLVERS = resolvers.txt
+CONTENT_WORDLIST = /usr/share/wordlists/common.txt
+PARAMETER_WORDLIST = /usr/share/wordlists/params.txt
+
+# Authentication tokens (replace with your tokens)
+GITHUB_TOKEN = YOUR_GITHUB_TOKEN_HERE
+SHODAN_API_KEY = YOUR_SHODAN_API_KEY_HERE
+CENSYS_API_ID = YOUR_CENSYS_API_ID_HERE
+CENSYS_API_SECRET = YOUR_CENSYS_API_SECRET_HERE
+
+# Output directory for results
+OUTPUT_DIR = bug_bounty_results
+
+# Scanning parameters
+THREADS = 50
+RECURSION_DEPTH = 3
+HTTP_PORTS = 80,443,8080,8443
+DNS_RESOLVERS = 1.1.1.1,8.8.8.8,8.8.4.4
+TIMEOUT = 30
+MAX_RETRIES = 3
+
+# Feature flags
+ENABLE_SCREENSHOTS = true
+ENABLE_JS_ANALYSIS = true
+ENABLE_CLOUD_ENUM = true
+ENABLE_VULNERABILITY_SCAN = true
+
+# Advanced settings
+VERBOSE = true
+DEBUG = false
+USER_AGENT = Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+
+# Batch scanning settings
+PARALLEL_SCANS = 2
+DELAY_BETWEEN_SCANS = 30
+
+# Custom tool paths (uncomment and modify if tools are in non-standard locations)
+#AMASS_PATH = /usr/local/bin/amass
+#FFUF_PATH = /usr/local/bin/ffuf
+#MASSDNS_PATH = /usr/local/bin/massdns
+
+# Scope settings
+INCLUDE_SUBDOMAINS = true
+OUT_OF_SCOPE_DOMAINS = test.example.com,dev.example.com
+IN_SCOPE_PROTOCOLS = http,https
+
+# Rate limiting settings
+REQUESTS_PER_SECOND = 10
+SUBDOMAIN_ENUMERATION_TIMEOUT = 600
+CONTENT_DISCOVERY_TIMEOUT = 300
+
+# Reporting settings
+REPORT_FORMAT = html,json
+SCREENSHOT_FORMAT = png
+ENABLE_NOTIFICATIONS = true
+NOTIFICATION_EMAIL = your-email@example.com
+
+# Proxy settings (uncomment if needed)
+#HTTP_PROXY = http://127.0.0.1:8080
+#HTTPS_PROXY = http://127.0.0.1:8080
+#SOCKS_PROXY = socks5://127.0.0.1:9050
+
+# Custom patterns for sensitive data discovery
+SENSITIVE_PATTERNS = password,secret,token,key,credential,admin
+API_PATTERNS = /api/,/v1/,/v2/,/graphql
+
+# Vulnerability scanning settings
+XSS_PAYLOADS = /path/to/xss-payloads.txt
+SQL_PAYLOADS = /path/to/sql-payloads.txt
+SKIP_VULNERABILITY_TYPES = cors,clickjacking
+
+# Cloud enumeration settings
+AWS_REGIONS = us-east-1,us-west-2,eu-west-1
+GCP_PROJECTS = project1,project2
+AZURE_SUBSCRIPTIONS = sub1,sub2
