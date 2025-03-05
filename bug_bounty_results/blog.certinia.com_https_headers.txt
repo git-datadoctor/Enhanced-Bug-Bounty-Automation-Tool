@@ -1,0 +1,14 @@
+HTTP/2 301 
+date: Sat, 01 Mar 2025 19:38:01 GMT
+content-type: text/html
+content-length: 167
+location: https://certinia.com/blog/
+cf-ray: 919b1cbedc0a4774-DFW
+cache-control: max-age=3600
+expires: Sat, 01 Mar 2025 20:38:01 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+vary: Accept-Encoding
+cf-apo-via: origin,host
+x-content-type-options: nosniff
+server: cloudflare
+
