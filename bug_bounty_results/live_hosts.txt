@@ -1,0 +1,6 @@
+# Live Hosts - Sat Mar  1 19:37:50 UTC 2025
+http://certinia.com - HTTP 301
+https://certinia.com - HTTP 200
+https://www.certinia.com - HTTP 302
+https://blog.certinia.com - HTTP 301
+https://help.certinia.com - HTTP 403
