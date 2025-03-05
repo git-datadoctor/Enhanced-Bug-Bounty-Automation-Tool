@@ -1,0 +1,2 @@
+[2025-03-01 19:48:04] [INFO] Loading configuration from config.ini
+./bug_bounty.sh: line 65: export: `[DEFAULT]=': not a valid identifier
