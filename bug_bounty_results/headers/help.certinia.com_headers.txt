@@ -1,0 +1,25 @@
+HTTP/2 403 
+content-type: text/html
+content-length: 14900
+last-modified: Mon, 03 Feb 2025 15:15:13 GMT
+x-amz-server-side-encryption: AES256
+x-amz-meta-sha256: 78680a0d6f6933ae21114a8fbef2c3cee6d93bdbea3c398987b2feb229cdf881
+x-amz-meta-s3b-last-modified: 20250203T151502Z
+x-amz-version-id: 0UgjTv1sv4o8hF6UO3rMkpWoa_40pxI.
+accept-ranges: bytes
+server: AmazonS3
+strict-transport-security: max-age=31536000; includeSubdomains
+content-security-policy: default-src 'none'; frame-src 'self' https://player.vimeo.com; frame-ancestors https://*.financialforce.com https://*.certinia.com; font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com; img-src 'self' https://www.google-analytics.com https://help.certinia.com https://help.financialforce.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://help.financialforce.com https://help.certinia.com https://ajax.googleapis.com https://www.google-analytics.com https://*.vimeo.com https://*.cloud.coveo.com; style-src 'self' 'unsafe-inline' https://fonts.gstatic.com https://fonts.googleapis.com https://*.cloud.coveo.com; connect-src 'self' https://*.google-analytics.com https://financialforce.org.coveo.com https://financialforce.analytics.org.coveo.com https://*.cloud.coveo.com; media-src 'self' https://player.vimeo.com https://vod-progressive.akamaized.net https://financialforce-training.s3.amazonaws.com; object-src 'none'
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+referrer-policy: strict-origin-when-cross-origin
+x-frame-options: DENY
+date: Sat, 01 Mar 2025 19:37:06 GMT
+cache-control: max-age=180
+etag: "6eb3947494c77b42cab85545b971dc54"
+x-cache: Error from cloudfront
+via: 1.1 9a74523f46ace0a21a604d0416823258.cloudfront.net (CloudFront)
+x-amz-cf-pop: DFW56-P10
+x-amz-cf-id: FoP-AktG680pFH7JuH6qpx2JEeew_U3O3PXXRYTUwBsHkVNuGrc6gw==
+age: 177
+
