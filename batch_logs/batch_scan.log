@@ -1,0 +1,15 @@
+[2025-03-01 19:48:02] [INFO] Starting batch scan with 1 parallel scans
+[2025-03-01 19:48:02] [INFO] Total targets: 4
+[2025-03-01 19:48:02] [INFO] [1/4] Starting scan for example.com (# Financial Services)
+[2025-03-01 19:48:02] [ERROR] [1/4] Failed scan for example.com
+[2025-03-01 19:48:03] [ERROR] Failed scan for example.com
+[2025-03-01 19:48:04] [INFO] [2/4] Starting scan for bank-example.com (Bank Security Program)
+[2025-03-01 19:48:04] [ERROR] [2/4] Failed scan for bank-example.com
+[2025-03-01 19:48:05] [ERROR] Failed scan for bank-example.com
+[2025-03-01 19:48:06] [INFO] [3/4] Starting scan for certinia.com (bg)
+[2025-03-01 19:48:06] [ERROR] [3/4] Failed scan for certinia.com
+[2025-03-01 19:48:07] [ERROR] Failed scan for certinia.com
+[2025-03-01 19:48:08] [INFO] [4/4] Starting scan for financialforce.com (financialforce.com)
+[2025-03-01 19:48:08] [ERROR] [4/4] Failed scan for financialforce.com
+[2025-03-01 19:48:08] [ERROR] Failed scan for financialforce.com
+[2025-03-01 19:48:08] [INFO] Batch scan completed
